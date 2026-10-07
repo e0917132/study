@@ -39,7 +39,7 @@
 - Working Directory : Git 에 기록되지 않은 변경사항이 있는 상태
 - Staging Area : 다음 커밋에 포함할 변경사항을 미리 모아두는 공간
 
-!(스크린샷 2026-10-08 오전 1.09.11.png)
+![1-7](스크린샷_2026-10-08_오전_1.09.11.png)
 
 ## 2.  git 기본 명령어
 
@@ -133,19 +133,19 @@ git merge feat/이름
 - hotfix : 긴급 수정
 - release : 배포 준비. 배포 전 마무리 작업만 하는 공간
 
-!(git_flow_branch_strategy_example.png)
+![3-2](git_flow_branch_strategy_example.png)
 
 #### 3-3. Fast-forward
 
 - 병합하려는 브랜치가 직선으로 이어져 있을 때. 단순히 커밋 포인터만 이동.
 
-!(fast_forward_merge_before_after.png)
+![3-3](fast_forward_merge_before_after.png)
 
 #### 3-4. 3-way merge
 
 - 두 브랜치가 각자 새로운 커밋을 가지고 갈라졌다가 다시 합쳐질 때. 병합 커밋이 생성된다.
 
-!(three_way_merge_before_after.png)
+![3-4](three_way_merge_before_after.png)
 
 #### 3-5. Merge conflict
 
